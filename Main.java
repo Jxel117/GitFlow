@@ -12,9 +12,11 @@ public class Main {
                 "Ingeniero en electronica", facultad, Modalidad.PRESENCIAL));
 
        computacion.crearCiclos(9);
-       computacion.crearAsignatura(2, "POO");
-       computacion.crearAsignatura(2, "Análisis");
-       computacion.crearAsignatura(2, "Matemática");
+       computacion.crearAsignatura(2, "Programacio Orientada a Objetos");
+       computacion.crearAsignatura(2, "Análisis matemático");
+       computacion.crearAsignatura(2, "Diseño de circuitos");
+       computacion.crearAsignatura(2, "Emprendimiento e Innovacion Tecnologica");
+       computacion.crearAsignatura(2, "Teoria de la distribución y la probabilidad");
        System.out.println(facultad);
     }
 }
