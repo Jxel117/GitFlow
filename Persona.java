@@ -4,7 +4,7 @@ public abstract class Persona {
     // atributos
     protected String apellido;
     protected String dni;
-    protected Date fechaNacimiento;
+    protected int edad;
     protected String nombre;
     protected String sexo;
 }
