@@ -6,5 +6,5 @@ public abstract class Persona {
     protected String dni;
     protected Date fechaNacimiento;
     protected String nombre;
-
+    protected String sexo;
 }
